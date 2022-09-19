@@ -132,3 +132,8 @@ for(let btn of btns){
         ans.innerHTML = questions[i-1].ans
     })
 }
+
+window.addEventListener("load",()=>{
+    ques.innerHTML = questions[0].ques
+    ans.innerHTML = questions[0].ans
+})
